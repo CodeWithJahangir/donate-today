@@ -143,8 +143,8 @@ p {
 }
 
 #donate-plan .card {
-  width: 340px;
-  height: 260px;
+  width: 350px;
+  height: 280px;
   margin: 0 12px;
   padding: 60px 25px;
 }
@@ -162,6 +162,38 @@ p {
 #donate-plan .card-item-3 {
   background: #fff4d6;
   border-radius: 5px;
+}
+
+#volunteer {
+  display: flex;
+  padding: 0 25%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      360deg,
+      #121212 0%,
+      rgba(18, 18, 18, 0) 100%
+    ),
+    url(./images/donation10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+}
+
+#volunteer .become-volunteer {
+  padding: 0 9%;
+}
+
+#volunteer .become-volunteer h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#volunteer .become-volunteer p {
+  color: #ffffff;
 }
 
 #subscribe {
