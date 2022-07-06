@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600;700;800&display=swap");
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Lobster", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -166,34 +166,24 @@ p {
 
 #volunteer {
   display: flex;
-  padding: 0 25%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(
-      360deg,
-      #121212 0%,
-      rgba(18, 18, 18, 0) 100%
-    ),
-    url(./images/donation10.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 700px;
-  text-align: center;
+  margin-bottom: 100px;
+  background-color: #f7fafe;
+  padding: 50px 0;
 }
 
-#volunteer .become-volunteer {
-  padding: 0 9%;
+#volunteer .half-width {
+  width: 50%;
+  padding: 2% 10%;
 }
 
-#volunteer .become-volunteer h1 {
-  font-size: 45px;
+#volunteer .half-width h1 {
+  font-size: 35px;
   font-weight: 700;
-  color: #ffffff;
 }
 
-#volunteer .become-volunteer p {
-  color: #ffffff;
+#volunteer .half-width img {
+  width: 120%;
+  border-radius: 10px;
 }
 
 #subscribe {
@@ -255,6 +245,7 @@ footer {
 }
 
 footer h1 {
+  font-family: "Lobster";
   text-align: center;
-  color: #ffffff;
+  color: #ff5959;
 }
